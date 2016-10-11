@@ -10,3 +10,4 @@ A change in a new branch
 'fatal: The current branch a_new_branch has no upstream branch.
 To push the current branch and set the remote as upstream, use
 git push --set-upstream origin a_new_branch'
+- we could do 'git push origin a_new_branch', that will push one time to remote with this branch

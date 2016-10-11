@@ -6,3 +6,7 @@ yep!
 here we go again
 A line again
 A change in a new branch
+- if we just push after branching, we get this message: 
+'fatal: The current branch a_new_branch has no upstream branch.
+To push the current branch and set the remote as upstream, use
+git push --set-upstream origin a_new_branch'

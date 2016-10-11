@@ -5,3 +5,4 @@ another line
 yep!
 here we go again
 A line again
+A change in a new branch

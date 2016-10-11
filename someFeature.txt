@@ -1,2 +1,3 @@
 Some feature
 More
+A change in master branch

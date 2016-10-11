@@ -5,3 +5,11 @@ another line
 yep!
 here we go again
 A line again
+A change in a new branch
+- if we just push after branching, we get this message: 
+'fatal: The current branch a_new_branch has no upstream branch.
+To push the current branch and set the remote as upstream, use
+git push --set-upstream origin a_new_branch'
+- we could do 'git push origin a_new_branch', that will push one time to remote with this branch
+- we could also do 'git push -u origin a_new_branch', to push to remote with this branch and set it to default tracking upstream branch
+- if we just push now, then we push to the default tracking upstream branch a_new_branch

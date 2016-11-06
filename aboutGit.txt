@@ -98,3 +98,14 @@ Fast forward
 - we switch to lisa branch and merge in master
 - since we merged in lisa to master and resolved the conflicts there, GIT just fast forward lisa to master
 - there is nothing commit since there already exist such a commit
+
+
+
+Rebase
+- "detach current branch and copies it ontop off the target branch, leaving the old copies"
+- The old copies will be garbage collected (because no branch points to them)
+
+Difference between Merge and Rebase
+- merge preservs history exactly as it happened
+- rebase looks more streamlined history wise, "but it is a lie"
+-- when in doubt, just merge!!

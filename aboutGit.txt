@@ -116,3 +116,6 @@ Difference between Merge and Rebase
 - merge preservs history exactly as it happened
 - rebase looks more streamlined history wise, "but it is a lie"
 -- when in doubt, just merge!!
+
+
+# The Distributed Revision Control System Layer

@@ -32,3 +32,5 @@ $ git commit -m "Some comment", the content are now stored as hashes in .git/obj
 
 $ git cat-file commitnumber -p , prints info about the commit
 $ git cat-file treenumber -p , prints the hashes of contents in the commit , the first characters is data about access permissions
+
+If two files have the same contentent they will have the same hash

@@ -51,6 +51,13 @@ $ git tag -a mytag -m "I like apple pie"
 $ git tag , prints mytag
 $ git cat-file -p mytag , prints info about the tag
 
+Lightweight tag
+$ git tag sometag
+$ git tag , prints tags
+$ cat .git/refs/tags/dinner , prints hash to latest commit when tag was created
+
+A tag is like a branch that doesnt move to another commit
+
 
 GIT objects recap
 - Blobs (content)

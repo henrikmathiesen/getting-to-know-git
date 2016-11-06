@@ -94,3 +94,6 @@ commits points to Blobs (via tree)
 commits has a parent commit
 
 
+Fast forward
+- we switch to lisa branch and merge in master
+- since we merged in lisa to master and resolved the conflicts there, GIT just fast forward lisa to master

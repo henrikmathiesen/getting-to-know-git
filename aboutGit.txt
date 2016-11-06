@@ -129,3 +129,18 @@ $ git show-ref master , which commits does local master and remote master point 
 // Same thing
 fetch > merge > push
 pull > push
+
+
+
+
+
+
+
+
+
+# Getting social
+- fork = a remote clone on GITHUB, then we can clone that one to our local machine
+- it is then NO connection to the original project that we forked from
+- we can however create a new remote pointing to the forked repo (called upstrem) to keep track of changes from that original repo
+- we CAN NOT push to upstream because we do not have access rights
+- But we can create a PULL REQUEST (a GIT HUB feature), encourage the original repo to pull in our changes, a REMOTE PULL from ours to theirs

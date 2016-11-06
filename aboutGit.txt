@@ -18,6 +18,7 @@ $ echo "Apple Pie" | git hash-object --stdin // will give a hash key for the tex
 Persisting a change
 $ echo "Apple Pie" | git hash-object --stdin -w // need a repository, content is saved (it does however not register as a change when git status (because it is saved directly?))
 - it is saved to .git/objects/xx where xx is first 2 digits of hash, there is a file in there (GIT calls it a BLOB of data) with a name that is the rest of the characters in the hash
+$ git cat-file prints info about the hash, see arguments bellow
 $ git cat-file 23991897e13e47ed0adb91a0082c31c82fe0cbe5 -t // -t = type , blob
 $ git cat-file 23991897e13e47ed0adb91a0082c31c82fe0cbe5 -p // -p = pretty, Apple Pie
 
@@ -56,3 +57,22 @@ GIT objects recap
 - Trees (directories)
 - Commits
 - Annotatet tags
+
+
+# The Revision Control System Layer
+
+$ git branch , list branches
+git puts branches in .git/refs/heads
+$ cat .git/refs/heads/master
+The branch files contains the hash of the current commit
+A branch is a reference (hence the directory name ref) to a commit
+
+Active branch is stored in .git/HEAD as 'ref: refs/heads/master'
+
+HEAD is a reference to a branch
+
+When making a commit the current branch is repointed to the new commit
+HEAD is still pointing to master
+
+When switching branch HEAD then points to the switched to branch, which in turn points to the latest commit done in that branch
+$ git checkout branchname , means move HEAD and update the working area

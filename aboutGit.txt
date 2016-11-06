@@ -125,3 +125,7 @@ $ git clone http://url ... , clones the project into current folder and copied t
 - .git/refs/remotes/origin contains remote branches
 
 $ git show-ref master , which commits does local master and remote master point to
+
+// Same thing
+fetch > merge > push
+pull > push

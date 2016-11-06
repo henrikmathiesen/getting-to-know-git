@@ -1,7 +1,22 @@
 ABOUT GIT
 
 LAYERS
+
 - Distributed Revision Control System
 - Revision Control System
 - A Stupid Content Tracker
 - A Persistant Map, key to values, stored on disc - The Core
+
+
+The Core Layer - A Persistant Map
+
+- values are a squence of bytes, for example a text file
+- keys are hashes, SHA1
+$ echo "Apple Pie" | git hash-object --stdin // will give a hash key for the text
+- Every file, directory and comment has a hash key and the key is unique
+
+Persisting a change
+$ echo "Apple Pie" | git hash-object --stdin -w // need a repository, content is saved
+- it is saved to .git/objects/xx where xx is first 2 digits of hash, there is a file in there (GIT calls it a BLOB of data) with a name that is the rest of the characters in the hash
+$ git cat-file 23991897e13e47ed0adb91a0082c31c82fe0cbe5 -t // -t = type , blob
+$ git cat-file 23991897e13e47ed0adb91a0082c31c82fe0cbe5 -p // -p = pretty, Apple Pie

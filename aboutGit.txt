@@ -78,4 +78,17 @@ When switching branch HEAD then points to the switched to branch, which in turn 
 $ git checkout branchname , means move HEAD and update the working area
 
 $git merge lisa , merge lisa with master (when being on the master branch)
-There was a conflict, resolve it in the code editor and the add and commit
+There was a conflict, resolve it in the code editor and then add and commit
+If there were no conflicts then git would have commited automaticly
+
+
+A merge is just a commit!
+With one exception, it has 2 parents
+$ git cat-file -p commithash
+
+
+
+HEAD is pointing to current branch
+current branch is poiting to latest commit
+
+

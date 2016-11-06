@@ -76,3 +76,6 @@ HEAD is still pointing to master
 
 When switching branch HEAD then points to the switched to branch, which in turn points to the latest commit done in that branch
 $ git checkout branchname , means move HEAD and update the working area
+
+$git merge lisa , merge lisa with master (when being on the master branch)
+There was a conflict, resolve it in the code editor and the add and commit

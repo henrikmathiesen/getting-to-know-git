@@ -119,3 +119,9 @@ Difference between Merge and Rebase
 
 
 # The Distributed Revision Control System Layer
+
+$ git clone http://url ... , clones the project into current folder and copied the .git directory (with its history), but includes ONLY the master branch, and checkouts the master branch
+- in .git/config we see info about the repo, with an adress to remote url (GIT calls it remote "origin"), GIT sets it when clone operation completes
+- .git/refs/remotes/origin contains remote branches
+
+$ git show-ref master , which commits does local master and remote master point to

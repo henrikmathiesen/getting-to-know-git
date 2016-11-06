@@ -1,6 +1,6 @@
-ABOUT GIT
+# ABOUT GIT
 
-LAYERS
+# LAYERS
 
 - Distributed Revision Control System
 - Revision Control System
@@ -8,7 +8,7 @@ LAYERS
 - A Persistant Map, key to values, stored on disc - The Core
 
 
-The Core Layer - A Persistant Map
+# The Core Layer - A Persistant Map
 
 - values are a squence of bytes, for example a text file
 - keys are hashes, SHA1
@@ -22,4 +22,7 @@ $ git cat-file 23991897e13e47ed0adb91a0082c31c82fe0cbe5 -t // -t = type , blob
 $ git cat-file 23991897e13e47ed0adb91a0082c31c82fe0cbe5 -p // -p = pretty, Apple Pie
 
 
-The Content Tracker Layer
+# The Content Tracker Layer
+
+$ git status // show untracked files as red, GIT does not know what to do with them
+- to commit a file it must be put in the so called staging area

@@ -1,0 +1,1 @@
+Put your recipes in this folder, one recipe per file.

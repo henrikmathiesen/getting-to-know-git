@@ -1,0 +1,7 @@
+ABOUT GIT
+
+LAYERS
+- Distributed Revision Control System
+- Revision Control System
+- A Stupid Content Tracker
+- A Persistant Map, key to values, stored on disc - The Core

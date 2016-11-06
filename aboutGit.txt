@@ -89,6 +89,8 @@ $ git cat-file -p commithash
 
 
 HEAD is pointing to current branch
-current branch is poiting to latest commit
+current branch is pointing to latest commit
+commits points to Blobs (via tree)
+commits has a parent commit
 
 

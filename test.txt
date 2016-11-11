@@ -6,6 +6,7 @@ second line
 some more
 another line
 yep!
+A change here
 here we go again
 A line again
 A change in a new branch

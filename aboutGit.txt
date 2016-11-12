@@ -1,3 +1,7 @@
+Following along
+// https://app.pluralsight.com/library/courses/how-git-works/table-of-contents
+// https://app.pluralsight.com/library/courses/mastering-git/table-of-contents
+
 # ABOUT GIT
 
 # LAYERS
@@ -144,8 +148,3 @@ pull > push
 - we can however create a new remote pointing to the forked repo (called upstrem) to keep track of changes from that original repo
 - we CAN NOT push to upstream because we do not have access rights
 - But we can create a PULL REQUEST (a GIT HUB feature), encourage the original repo to pull in our changes, a REMOTE PULL from ours to theirs
-
-
-
-//
-//
